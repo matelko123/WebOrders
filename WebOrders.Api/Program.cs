@@ -1,8 +1,12 @@
+using MediatR;
+using WebOrders.Api.Handlers.Orders;
+
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 {
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
-
+    
+    builder.Services.AddMediatR(x => x.AsScoped(), typeof(Program));
 }
 
 WebApplication app = builder.Build();
@@ -14,8 +18,8 @@ WebApplication app = builder.Build();
     }
 
     app.UseHttpsRedirection();
-
-    app.UseAuthorization();
-
+    
+    app.MapOrderExtension();
+    
     app.Run();
 }
