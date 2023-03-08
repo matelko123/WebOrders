@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebOrders.Api", "WebOrders.Api\WebOrders.Api.csproj", "{BDE80017-8274-4AD3-8256-D834002E544B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E85F7097-2808-4196-A631-F16CFB48FFED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebOrders.Application", "WebOrders.Application\WebOrders.Application.csproj", "{0E6226F6-E655-4AC5-B3D0-E269AABAF51C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebOrders.Contracts", "WebOrders.Contracts\WebOrders.Contracts.csproj", "{44D85A59-E93A-4987-99B0-A5614F13B893}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDE80017-8274-4AD3-8256-D834002E544B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDE80017-8274-4AD3-8256-D834002E544B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDE80017-8274-4AD3-8256-D834002E544B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDE80017-8274-4AD3-8256-D834002E544B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6226F6-E655-4AC5-B3D0-E269AABAF51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6226F6-E655-4AC5-B3D0-E269AABAF51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6226F6-E655-4AC5-B3D0-E269AABAF51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6226F6-E655-4AC5-B3D0-E269AABAF51C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D85A59-E93A-4987-99B0-A5614F13B893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D85A59-E93A-4987-99B0-A5614F13B893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D85A59-E93A-4987-99B0-A5614F13B893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D85A59-E93A-4987-99B0-A5614F13B893}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDE80017-8274-4AD3-8256-D834002E544B} = {E85F7097-2808-4196-A631-F16CFB48FFED}
+		{0E6226F6-E655-4AC5-B3D0-E269AABAF51C} = {E85F7097-2808-4196-A631-F16CFB48FFED}
+		{44D85A59-E93A-4987-99B0-A5614F13B893} = {E85F7097-2808-4196-A631-F16CFB48FFED}
+	EndGlobalSection
+EndGlobal
